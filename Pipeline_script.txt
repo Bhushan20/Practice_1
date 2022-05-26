@@ -3,11 +3,11 @@ for(int i=0;i<2;i++){
 stage "Stage#" + i
 print 'hello, world!'
 if(i==0){
-git "https://github.com/Bhupendra-Dahale/Gradle_BankApp.git"
+git "https://github.com/Bhushan20/Practice_1.git"
 echo "Running on Stage#0"
 }
 else{
-build "BankApp_Gradle-job"
+build "project_1"
 echo "Running on Stage#1"
 }
 }
