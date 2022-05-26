@@ -1,0 +1,12 @@
+pipeline {
+    node("My_Agent"){
+	stage("one"){
+		echo "Hi Bhushan"
+		echo "This is my first job : %date% : %time%"
+}
+	stage("two"){
+		echo "Hi Bhushan"
+		echo "This is my secod job : %date% : %time%"
+}
+}
+}
